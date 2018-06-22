@@ -1,6 +1,8 @@
 body {
-  /* background-color: black;
-  color: white; */
+   background-color: black;
+  color: white; 
+  font-family: "Roboto Mono";
+  font-weight: 300;
 }
 
 header {
@@ -29,30 +31,40 @@ a:hover {
 }
 
 #title {
-  border: 3px solid yellow;
+  border: 1px solid yellow;
   border-radius: 30px;
   margin-left: 150px; 
   margin-right: 150px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0px 0px 80px 0px yellow;
 }
 
 #main{
-  border: 3px solid yellow;
+  border: 1px solid yellow;
   border-radius: 4%;
+  box-shadow: 0px 0px 80px 0px yellow;
 }
 
 #footer {
-  border: 3px solid yellow;
+  border: 1px solid yellow;
   border-radius: 30px;
   margin-left: 150px; 
   margin-right: 150px;
   margin-top: 30px;
+  box-shadow: 0px 0px 80px 0px yellow;
 }
 
 #img-div {
-  
+ 
 }
 
 #image {
- 
+ margin-left: 9.5%;
+ margin-right: 9.5%;
+ border-radius: 30px;
+  /* max-width: 100%;
+  display: block;
+  height: auto; */
+
 }
