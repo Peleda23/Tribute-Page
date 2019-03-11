@@ -9,7 +9,6 @@ body {
 
 #main {
   width: 70%;
-  text-align: center;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -19,13 +18,48 @@ body {
 
 header {
   background: #A6BEC9;
+  text-align: center;
+}
+
+#img-div {
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
 
 #image {
   display: block;
-  width: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+
+#img-caption {
+  background: #A6BEC9;
+  margin: 0;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#tribute-info {
+  color: white;
+  width: 70%;
+  margin: auto;
+  font-size: 14px;
+
+}
+
+#tribute-info ul>li {
+  padding-top: 15px;
+}
+
+#quote {
+  text-align: center;
+  padding: 25px;
+  color: white;
 }
 
 footer {
   background: #A6BEC9;
+  text-align: center;
 }
