@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  background: #A6BEC9;
 }
 
 #main {
@@ -13,9 +14,18 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: #537E93;
+}
+
+header {
+  background: #A6BEC9;
 }
 
 #image {
   display: block;
   width: 100%;
+}
+
+footer {
+  background: #A6BEC9;
 }
