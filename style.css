@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
 body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+  width: 70%;
   text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#image {
+  display: block;
+  width: 100%;
 }
