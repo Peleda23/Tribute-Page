@@ -7,25 +7,26 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Star Wars Tribute Page</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 
 <body>
+  <div id="body">
   <header>
     <div id="title">
-      <img src="https://fontmeme.com/permalink/180622/32c0cb5bf4cb79ee7f82c92cd30a7432.png" alt="Star Wars">
-      <!-- <h1>Star Wars</h1> -->
+      <h1>Star Wars</h1>
+    </div>
+    <div id="img-div">
+      <img id="image" src="https://nerdist.com/wp-content/uploads/2015/09/Star-Wars-saga-1-6.jpg" alt="">
+      <p id="img-caption">Star Wars is an American epic space opera media franchise, centered on a film series created by
+        <strong>George Lucas</strong>. It depicts the adventures of characters "a long time ago in a galaxy far, far away". The franchise
+        began in <strong>1977</strong>.</p>
     </div>
   </header>
-  <div id="img-div">
-    <img id="image" src="https://pixabay.com/get/eb36b7062bf5073ed1584d05fb0938c9bd22ffd41cb3184491f9c67ca2/star-wars-2369316_1280.jpg" alt="" srcset="">
-  </div>
-  <main>
-    <div id="main">
-      <p>Star Wars is an American epic space opera media franchise, centered on a film series created by
-        <strong>George Lucas</strong>. It depicts the adventures of characters "a long time ago in a galaxy far, far away". The franchise
-        began in 1977.</p>
+  <main id="main">
+    <div id="tribute-info">
       <h2>Trilogies</h2>
+      <div class="ul-info">
       <ul>
         <li>Original trilogy:</li>
         <ul>
@@ -33,7 +34,9 @@
           <li>V – The Empire Strikes Back (1980)</li>
           <li>VI – Return of the Jedi (1983)</li>
         </ul>
+        </div>
       </ul>
+      <div class="ul-info">
       <ul>
         <li>Prequel trilogy:</li>
         <ul>
@@ -42,6 +45,8 @@
           <li>III – Revenge of the Sith (2005)</li>
         </ul>
       </ul>
+      </div>
+      <div class="ul-info">
       <ul>
         <li>Sequel trilogy:</li>
         <ul>
@@ -50,25 +55,33 @@
           <li>IX (2019)</li>
         </ul>
       </ul>
+      </div>
       <h2>Anthology films:</h2>
+      <div class="ul-info2">
       <ul>
         <li>Rogue One: A Star Wars Story (2016)</li>
         <li>Solo: A Star Wars Story (2018)</li>
       </ul>
+      </div>
+      <div class="ul-info2">
       <h2>Animated film:</h2>
       <ul>
         <li>The Clone Wars (2008)</li>
       </ul>
+      </div>
     </div>
   </main>
   <footer>
     <div id="footer">
       <h4>They made not only movies but and tv series, books, computer games and much more. For more information, please follow
         the
-        <a href="https://en.wikipedia.org/wiki/Star_Wars">link</a>.</h4>
-      <p> <em>“Fear is the path to the dark side…fear leads to anger…anger leads to hate…hate leads to suffering.”</em></p>
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Star_Wars" target="_blank"><br>Link<br></a></h4>
+      <p>
+        <em>“Fear is the path to the dark side…fear leads to anger…anger leads to hate…hate leads to suffering.”</em>
+      </p>
     </div>
   </footer>
+</div>
 </body>
 
 </html>
